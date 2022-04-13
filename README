@@ -1,0 +1,20 @@
+Hello! Thank you for choosing Bash-Bouncer. Just so you know, I am very much green and would not be at all surprised if this
+turns out to be a massive flop. I'm open to suggestions and feedback.
+
+To use the script, you will need to edit the {bash.bashrc} config file with root permissions. 
+
+First, open the script and type
+your desired credentials where it says "put your name here". If you don't want your machine to power off for every incorrect 
+spelling or unauthorized attempt, replace {poweroff} with your command of choice. Just make sure it will do something to 
+prevent an unauthorized user from interacting with the terminal.
+
+To impliment the script, navigate to {/etc/bash.bashrc}. 
+
+Type: { sudo nano bash.bashrc }
+
+Find the line indicated in figure1_1.png and paste the script you edited there. The result should look like figure2_1.png.
+
+Save the file and the next time you open a terminal or use a remote shell on that machine, it will require the name you set in
+the bash-bouncer script.
+
+
